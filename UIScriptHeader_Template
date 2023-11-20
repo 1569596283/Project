@@ -1,0 +1,60 @@
+﻿
+/**
+ * AUTO GENERATE BY UI EDITOR.
+ * WARNING: DO NOT MODIFY THIS FILE,MAY CAUSE CODE LOST.
+ * AUTHOR: ${Author}
+ * UI: ${UIPath}
+ * TIME: ${Time}
+ */
+
+ ${Import}
+
+ @UIBind('${UIPath}')
+ export default class ${ClassName}_Generate extends ${SuperClassName} {
+	 ${Fileds}
+ 
+	protected onAwake() {
+		//设置能否每帧触发onUpdate
+		this.canUpdate = false;
+		this.layer = mw.UILayerBottom;
+		this.initButtons();
+	}
+	protected initButtons() {
+		//按钮添加点击
+		${StaleButton_Start}
+		this.${StaleButton}.onClicked.add(()=>{
+			Event.dispatchToLocal("PlayButtonClick", "${StaleButton}");
+		})
+		this.initLanguage(this.${StaleButton});
+		this.${StaleButton}.touchMethod = (mw.ButtonTouchMethod.PreciseTap);
+		${StaleButton_End}
+		//按钮添加点击
+		${Button_Start}
+		this.${Button}.onClicked.add(()=>{
+			Event.dispatchToLocal("PlayButtonClick", "${Button}");
+		})
+		this.${Button}.touchMethod = (mw.ButtonTouchMethod.PreciseTap);
+		${Button_End}
+
+		//按钮多语言
+		${StaleButton_HideStart}
+		this.initLanguage(this.uiWidgetBase.findChildByPath("${StaleButton_Path}") as any);
+		${StaleButton_HideEnd}
+		//文本多语言
+		${TextBlock_Start}
+		this.initLanguage(this.${TextBlock})
+		${TextBlock_End}
+		//文本多语言
+		${TextBlock_HideStart}
+		this.initLanguage(this.uiWidgetBase.findChildByPath("${TextBlock_Path}") as any);
+		${TextBlock_HideEnd}
+
+	}
+	private initLanguage(ui: mw.StaleButton | mw.TextBlock) {
+        let call = mw.UIScript.getBehavior("lan");
+        if (call && ui) {
+            call(ui);
+        }
+    }
+ }
+ 

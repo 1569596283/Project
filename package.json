@@ -1,0 +1,20 @@
+{
+  "name": "horseracing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.appshahe.com:metaApp/metagame/metabluets/games/horseracing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "module_guide": "^4.0.11",
+    "module_setting": "^4.0.6",
+    "odin": "^4.0.5"
+  }
+}

@@ -1,0 +1,31 @@
+**************************************************
+--开始检查项目资源
+--项目路径:D:\MetaApp\Editor_Win64\MetaWorldSaved\Saved\MetaWorld\Project\Edit\horseracing
+**************************************************
+**************************************************
+--项目资源检查结束，耗时:80.051
+**************************************************
+-------------------------------------------
+--需要修改的脚本[.ts文件]：8
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/JavaScripts/Common.ts]使用到ID[ 7806 ]确定这是资源？可替换=>[ 197173 ]
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/JavaScripts/Common.ts]使用到ID[ 21638 ]确定这是资源？可替换=>[ 197483 ]
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/JavaScripts/Common.ts]使用到ID[ 13587 ]确定这是资源？可替换=>[ 154709 ]
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/JavaScripts/config/Horse.ts]使用到ID[ 25510 ]确定这是资源？可替换=>[ 197977 ]
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/JavaScripts/config/Horse.ts]使用到ID[ 24974 ]确定这是资源？可替换=>[ 197475 ]
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/JavaScripts/config/Horse.ts]使用到ID[ 24979 ]确定这是资源？可替换=>[ 197461 ]
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/JavaScripts/config/Weather.ts]使用到ID[ 20368 ]确定这是资源？可替换=>[ 197480 ]
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/JavaScripts/ui/setting/SettingExtend.ts]使用到ID[ 2222 ]确定这是资源？请修改
+=>请修改上述ts文件，如果提示ID不是资源请忽略
+=>如果是配置文件转换的ts文件，请修改对应的配置表
+-------------------------------------------
+-------------------------------------------
+--需要修改的对象：4
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/Prefabs/变异汽车马小腿/变异汽车马小腿.prefab]里的[ 蓝色轿车-2 id: B7C22398 ]的资源[ 75194 ]请查找替换
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/Prefabs/变异汽车马身体/变异汽车马身体.prefab]里的[ 蓝色轿车 id: 0AFC8C8B ]的资源[ 75194 ]请查找替换
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/Levels/NewLevel.level]里的[ 电箱1 id: 9A61B217 ]的资源[ 7289 ]请查找替换
+[D:/MetaApp/Editor_Win64/MetaWorldSaved/Saved/MetaWorld/Project/Edit/horseracing/Levels/NewLevel.level]里的[ 电箱1 id: 9A61B217 ]的资源[ 7288 ]请查找修改
+=>请修改上述提示文件內的对象
+-------------------------------------------
+=>资源替换715个
+=>还有12个目标需要处理
+=========================================================
